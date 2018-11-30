@@ -7,3 +7,6 @@ Tools for GMs and DMs!
 
 2. Create `.env` file in project root
     * set __OPENGM_DATABASE_URL__ to a local location (project_root/local folder is a good idea)
+
+3. [Re]Generate documentation
+    * `$ cargo doc --no-deps`
