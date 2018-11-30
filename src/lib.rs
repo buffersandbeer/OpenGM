@@ -1,11 +1,5 @@
-pub fn test() {
-    println!("Hello, World");
-}
+extern crate dotenv;
+extern crate sqlite;
 
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
-    }
-}
+pub mod database;
+

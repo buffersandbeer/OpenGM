@@ -12,3 +12,5 @@ name = "gmtool"
 path = "src/cmd/bin.rs"
 
 [dependencies]
+dotenv = "0.13.0"
+sqlite = "0.24.0"

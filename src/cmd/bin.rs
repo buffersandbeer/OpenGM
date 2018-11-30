@@ -1,6 +1,6 @@
 extern crate opengm;
 
-use opengm::test;
+use opengm::database::test;
 
 pub fn main() {
     test();
