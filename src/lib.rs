@@ -1,5 +1,5 @@
 extern crate dotenv;
-extern crate sqlite;
+extern crate rusqlite;
 
 /// The database module is the primary way to use the database
 ///
