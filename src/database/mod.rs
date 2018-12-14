@@ -3,9 +3,6 @@ use std::env;
 use std::result::Result;
 use rusqlite::{Connection};
 
-/// NPC database functions
-pub mod npc;
-
 
 /// Connects to a Sqlite Database from environment.
 ///
